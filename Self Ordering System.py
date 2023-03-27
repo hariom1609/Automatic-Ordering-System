@@ -162,7 +162,7 @@ while (1>0):
               """)
         n_p=[5]
         n_papad={1:12,2:90,3:20,4:35,5:30,900:""}
-        papad={1:"Papad Dry  पापड़ ड्राई ",2:"Papad Bhurji  पापड़ भुजी",3:"Papad Fry  पापड़ फाय",4:"Papad Masala    पापड़ मसाल",5:"Papad Dry Masala पापड़ ड्राय मसाला",900:""}
+        paPad={1:"Papad Dry  पापड़ ड्राई ",2:"Papad Bhurji  पापड़ भुजी",3:"Papad Fry  पापड़ फाय",4:"Papad Masala    पापड़ मसाल",5:"Papad Dry Masala पापड़ ड्राय मसाला",900:""}
         while (choice!=0):
             order=int(input("ENTER THE FOOD CODE YOU WANT TO ORDER: "))
             if order in n_p:
